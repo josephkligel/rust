@@ -5,7 +5,7 @@ fn main() {
         _ => (),
     }
 
-    if let Some(max) {
+    if let Some(max) = config_max{
         println!("The maximum is configured to be {}", max);
     }
     // can also add else expression
